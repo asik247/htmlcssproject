@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* headder stye */
+header{
+  
+
+    background-image: url(./assest/Hero-bg.png);
+    width: 100%;
+    min-height: 200px;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /* margin: 15px 20px; */
+
+}
+.logoNavMain{
+   display: flex;
+    justify-content: space-between;
+     align-items: center; 
+     padding: 15px 20px;
+}
+.logo h2{
+    color:green;
+    font-size: 40px;
+     cursor: pointer;
+}
+.nav button{
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 15px;
+    background-color: palegoldenrod;
+    border: none;
+    cursor: pointer;
+}
