@@ -7,7 +7,7 @@
 .robotoFont{
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -42,7 +42,23 @@ header{
     padding: 15px 35px;
     font-size: 18px;
     border-radius: 15px;
-    background-color: palegoldenrod;
+    background-color: rgb(47, 145, 243);
     border: none;
     cursor: pointer;
+}
+article{
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    
+}
+article h1{
+    font-size: 40px;
+}
+.heroAreaSection{
+    border: 2px solid black;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
