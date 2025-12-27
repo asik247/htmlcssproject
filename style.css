@@ -125,7 +125,12 @@ color: gray;
     align-items: center;
 }
 .cardOne{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    padding: 10px 8px;
+    border-radius: 15px;
+    /* box-shadow: 10px 20px 30px rgba(1, 7, 10, 0.1); */
+    /* background-color: whitesmoke; */
+     box-shadow: 10px 10px 30px rgb(214, 210, 210);
 }
 .imgTextMain{
     display: flex;
@@ -136,4 +141,15 @@ color: gray;
     width: 60px;
     height: 60px;
     border-radius: 50%;
+}
+.allStar{
+    color: goldenrod;
+}
+.testimonalSection{
+    /* background-color: gray; */
+    padding: 15px 5px;
+}
+.testimonalSection h2{
+    font-size: 25px;
+    text-align: center;
 }
