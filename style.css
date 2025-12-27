@@ -50,15 +50,90 @@ article{
     width: 500px;
     margin: 20px auto;
     text-align: center;
-    
 }
 article h1{
     font-size: 40px;
 }
+main{
+    width: 1100px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
 .heroAreaSection{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftSiteTitle h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.leftSiteTitle p{
+    color: gray;
+    margin: 5px 0;
+}
+.rightSiteImg img{
+    border-radius: 20px;
+    min-width: 200px;
+    height: 200px;
+}
+/* @media screen and (min-width:665px) {
+    .heroAreaSection{
+        flex-direction: column;
+    }
+} */
+
+/* @media screen and (min-width: 665px) {
+    .heroAreaSection {
+        flex-direction: column;
+    }
+} */
+.mainDiv{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    align-items: center;
+   
+   
+    text-align: center;
+    border-radius: 15px;
+}
+.secondSection{
+     margin: 30px auto;
+ padding:20px 10px;
+    background-color: rgb(37, 164, 193);
+}
+.secondSection h2{
+    text-align: center;
+}
+.firstDiv h2{
+    font-size: 40px;
+    font-weight:bold;
+    color: darkblue;
+
+}
+.firstDiv p{
+color: gray;
+}
+.testimonalMain{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    gap: 20px;
+    align-items: center;
+}
+.cardOne{
     border: 2px solid black;
-    margin: 30px 10px;
+}
+.imgTextMain{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.imgTextMain .img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
