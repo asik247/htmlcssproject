@@ -1,230 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
-.robotoFont {
+body {
     font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+    background-color: #F8FAFC;
+    color: #0F172A;
 }
 
-/* headder stye */
+/* ---------- HEADER ---------- */
 header {
-
-
     background-image: url(./assest/Hero-bg.png);
-    width: 100%;
-    min-height: 200px;
-    height: 40vh;
+    min-height: 40vh;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    /* margin: 15px 20px; */
-
 }
 
 .logoNavMain {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
 }
 
 .logo h2 {
-    color: green;
-    font-size: 40px;
-    cursor: pointer;
+    color: #2563EB;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .nav button {
-    padding: 15px 35px;
-    font-size: 18px;
-    border-radius: 15px;
-    background-color: rgb(47, 145, 243);
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #2563EB;
+    color: white;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 
+.nav button:hover {
+    background-color: #1E40AF;
+}
+
+/* ---------- HERO TEXT ---------- */
 article {
-    width: 500px;
-    margin: 20px auto;
+    max-width: 700px;
+    margin: 40px auto;
     text-align: center;
 }
 
 article h1 {
-    font-size: 40px;
+    font-size: 42px;
+    font-weight: 700;
 }
 
+/* ---------- MAIN ---------- */
 main {
-    width: 1100px;
-    /* border: 2px solid red; */
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
+/* ---------- HERO SECTION ---------- */
 .heroAreaSection {
-    /* border: 2px solid black; */
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 40px;
+    margin: 60px 0;
 }
 
 .leftSiteTitle h3 {
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .leftSiteTitle p {
-    color: gray;
-    margin: 5px 0;
+    color: #64748B;
+    margin: 10px 0 20px;
 }
 
 .rightSiteImg img {
+    width: 280px;
     border-radius: 20px;
-    min-width: 200px;
-    height: 200px;
 }
 
-/* @media screen and (min-width:665px) {
-    .heroAreaSection{
-        flex-direction: column;
-    }
-} */
-
-/* @media screen and (min-width: 665px) {
-    .heroAreaSection {
-        flex-direction: column;
-    }
-} */
-.mainDiv {
-    display: flex;
-    /* border: 2px solid green; */
-    justify-content: space-between;
-    align-items: center;
-
-
-    text-align: center;
-    border-radius: 15px;
-}
-
+/* ---------- SECOND SECTION ---------- */
 .secondSection {
-    margin: 30px auto;
-    padding: 20px 10px;
-    background-color: rgb(37, 164, 193);
+    background-color: #2563EB;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin-bottom: 60px;
 }
 
 .secondSection h2 {
     text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 .firstDiv h2 {
-    font-size: 40px;
-    font-weight: bold;
-    color: darkblue;
-
+    font-size: 42px;
+    font-weight: 700;
 }
 
 .firstDiv p {
-    color: gray;
+    opacity: 0.9;
+}
+
+/* ---------- TESTIMONIAL ---------- */
+.testimonalSection {
+    margin-bottom: 60px;
+}
+
+.testimonalSection h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
 .testimonalMain {
     display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-    gap: 20px;
-    align-items: center;
+    gap: 25px;
 }
 
 .cardOne {
-    /* border: 2px solid black; */
-    padding: 10px 8px;
-    border-radius: 15px;
-    /* box-shadow: 10px 20px 30px rgba(1, 7, 10, 0.1); */
-    /* background-color: whitesmoke; */
-    box-shadow: 10px 10px 30px rgb(214, 210, 210);
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    flex: 1;
+}
+
+.allStar {
+    color: #FACC15;
+    margin-bottom: 10px;
+}
+
+.cardOne h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.cardOne p {
+    color: #64748B;
+    font-size: 15px;
 }
 
 .imgTextMain {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 12px;
+    margin-top: 15px;
 }
 
-.imgTextMain .img img {
-    width: 60px;
-    height: 60px;
+.imgTextMain img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
-.allStar {
-    color: goldenrod;
-}
-
-.testimonalSection {
-    /* background-color: gray; */
-    padding: 15px 5px;
-}
-
-.testimonalSection h2 {
-    font-size: 25px;
-    text-align: center;
-}
-
-.thirdMain {
+/* ---------- THIRD SECTION ---------- */
+.thirdSection {
+    background: white;
+    padding: 50px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     text-align: center;
 }
 
 .thirdMain img {
-    margin: 20px auto;
-    border-radius: 15px;
-    min-width: 850px;
-    height: 350px;
-    background-size: cover;
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
 
 .thirdMain h1 {
+    font-size: 36px;
+    font-weight: 700;
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: bold;
-    margin: 10px 0;
 }
 
 .thirdMain p {
-    color: gray;
+    color: #64748B;
+    margin: 10px 0 20px;
+}
+
+/* ---------- CONTACT ---------- */
+.submitMain {
+    display: flex;
+    gap: 40px;
+    margin: 80px 0;
+}
+
+.right form {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.right form label {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #CBD5E1;
     margin-bottom: 10px;
 }
 
-.thirdSection {
-    padding: 20px 10px;
-    box-shadow: 10px 10px 30px rgb(214, 210, 210);
+.right form button {
+    margin-top: 10px;
+    background: #2563EB;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
-.submitMain {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 40px 0;
+/* ---------- FOOTER ---------- */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748B;
 }
-.right form {
-    background-color: rgb(230, 223, 215);
-    width: 500px;
-    height: 300px;
-    border-radius: 15px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-}
-.right form label{
-    margin-bottom: 5px;
-}
-.right form input{
-    padding: 5px;
-    border-radius: 5px;
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+
+    .heroAreaSection,
+    .submitMain,
+    .testimonalMain,
+    .mainDiv {
+        flex-direction: column;
+        text-align: center;
+    }
 }
