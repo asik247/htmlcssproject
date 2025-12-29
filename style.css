@@ -185,9 +185,9 @@ main {
 }
 
 .thirdMain img {
-    width: 100%;
-    max-width: 900px;
-    margin-top: 30px;
+    width: 40%;
+    /* max-width: 900px; */
+    margin: 30px auto;
     border-radius: 20px;
 }
 
@@ -249,6 +249,11 @@ footer {
     text-align: center;
     padding: 20px;
     color: #64748B;
+}
+.left h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 
 /* ---------- RESPONSIVE ---------- */
