@@ -1,21 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 }
-.robotoFont{
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+.robotoFont {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 /* headder stye */
-header{
-  
+header {
+
 
     background-image: url(./assest/Hero-bg.png);
     width: 100%;
@@ -24,21 +25,24 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-     /* margin: 15px 20px; */
+    /* margin: 15px 20px; */
 
 }
-.logoNavMain{
-   display: flex;
+
+.logoNavMain {
+    display: flex;
     justify-content: space-between;
-     align-items: center; 
-     padding: 15px 20px;
+    align-items: center;
+    padding: 15px 20px;
 }
-.logo h2{
-    color:green;
+
+.logo h2 {
+    color: green;
     font-size: 40px;
-     cursor: pointer;
+    cursor: pointer;
 }
-.nav button{
+
+.nav button {
     padding: 15px 35px;
     font-size: 18px;
     border-radius: 15px;
@@ -46,39 +50,47 @@ header{
     border: none;
     cursor: pointer;
 }
-article{
+
+article {
     width: 500px;
     margin: 20px auto;
     text-align: center;
 }
-article h1{
+
+article h1 {
     font-size: 40px;
 }
-main{
+
+main {
     width: 1100px;
     /* border: 2px solid red; */
     margin: 0 auto;
 }
-.heroAreaSection{
+
+.heroAreaSection {
     /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.leftSiteTitle h3{
+
+.leftSiteTitle h3 {
     font-size: 25px;
     font-weight: bold;
 }
-.leftSiteTitle p{
+
+.leftSiteTitle p {
     color: gray;
     margin: 5px 0;
 }
-.rightSiteImg img{
+
+.rightSiteImg img {
     border-radius: 20px;
     min-width: 200px;
     height: 200px;
 }
+
 /* @media screen and (min-width:665px) {
     .heroAreaSection{
         flex-direction: column;
@@ -90,96 +102,129 @@ main{
         flex-direction: column;
     }
 } */
-.mainDiv{
+.mainDiv {
     display: flex;
     /* border: 2px solid green; */
     justify-content: space-between;
     align-items: center;
-   
-   
+
+
     text-align: center;
     border-radius: 15px;
 }
-.secondSection{
-     margin: 30px auto;
- padding:20px 10px;
+
+.secondSection {
+    margin: 30px auto;
+    padding: 20px 10px;
     background-color: rgb(37, 164, 193);
 }
-.secondSection h2{
+
+.secondSection h2 {
     text-align: center;
 }
-.firstDiv h2{
+
+.firstDiv h2 {
     font-size: 40px;
-    font-weight:bold;
+    font-weight: bold;
     color: darkblue;
 
 }
-.firstDiv p{
-color: gray;
+
+.firstDiv p {
+    color: gray;
 }
-.testimonalMain{
+
+.testimonalMain {
     display: flex;
     justify-content: space-between;
     margin: 20px 0px;
     gap: 20px;
     align-items: center;
 }
-.cardOne{
+
+.cardOne {
     /* border: 2px solid black; */
     padding: 10px 8px;
     border-radius: 15px;
     /* box-shadow: 10px 20px 30px rgba(1, 7, 10, 0.1); */
     /* background-color: whitesmoke; */
-     box-shadow: 10px 10px 30px rgb(214, 210, 210);
+    box-shadow: 10px 10px 30px rgb(214, 210, 210);
 }
-.imgTextMain{
+
+.imgTextMain {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.imgTextMain .img img{
+
+.imgTextMain .img img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
-.allStar{
+
+.allStar {
     color: goldenrod;
 }
-.testimonalSection{
+
+.testimonalSection {
     /* background-color: gray; */
     padding: 15px 5px;
 }
-.testimonalSection h2{
+
+.testimonalSection h2 {
     font-size: 25px;
     text-align: center;
 }
-.thirdMain{
+
+.thirdMain {
     text-align: center;
 }
-.thirdMain img{
+
+.thirdMain img {
     margin: 20px auto;
     border-radius: 15px;
-     min-width: 850px;
+    min-width: 850px;
     height: 350px;
     background-size: cover;
 }
-.thirdMain h1{
+
+.thirdMain h1 {
     text-transform: uppercase;
     font-size: 35px;
     font-weight: bold;
     margin: 10px 0;
 }
-.thirdMain p{
+
+.thirdMain p {
     color: gray;
     margin-bottom: 10px;
 }
-.thirdSection{
+
+.thirdSection {
     padding: 20px 10px;
     box-shadow: 10px 10px 30px rgb(214, 210, 210);
 }
-.submitionSection{
+
+.submitMain {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 40px 0;
+}
+.right form {
+    background-color: rgb(230, 223, 215);
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.right form label{
+    margin-bottom: 5px;
+}
+.right form input{
+    padding: 5px;
+    border-radius: 5px;
 }
