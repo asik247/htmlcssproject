@@ -177,3 +177,9 @@ color: gray;
     padding: 20px 10px;
     box-shadow: 10px 10px 30px rgb(214, 210, 210);
 }
+.submitionSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
