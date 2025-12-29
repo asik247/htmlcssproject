@@ -205,6 +205,8 @@ main {
 /* ---------- CONTACT ---------- */
 .submitMain {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 40px;
     margin: 80px 0;
 }
@@ -229,6 +231,7 @@ main {
     border-radius: 8px;
     border: 1px solid #CBD5E1;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .right form button {
